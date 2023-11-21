@@ -11,7 +11,7 @@ const CounterElement = ({ elem, info, dataVal, classProperty }) => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          console.log("in view");
+          // console.log("in view");
 
           let step = +dataVal / 100;
           const interval = setInterval(() => {

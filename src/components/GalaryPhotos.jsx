@@ -1,24 +1,85 @@
-import React from 'react'
+import React from "react";
 import ProjectImgs from "./ProjectImgs";
-import img from "../images/tree.jpg";
 
-const GalaryPhotos = () => {
-    console.log(img);
-    const images = [
-        {
-            info: "frontend",
-            foo:"../images/tree.jpg",
-        }
-    ]
-    // const imgUrl = "../images/tree.jpg";
+const GalaryPhotos = ({ currentTech }) => {
+  const images = [
+    {
+      info: ".frontend",
+      foo: "/src/images/img1.jpg",
+      id: 1,
+    },
+    {
+      info: ".backend",
+      foo: "/src/images/tree.jpg",
+      id: 2,
+    },
+    {
+      info: ".backend",
+      foo: "/src/images/img2.jpg",
+      id: 3,
+    },
+    {
+      info: ".frontend",
+      foo: "/src/images/img3.jpg",
+      id: 4,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 5,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 6,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 7,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 8,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 9,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 10,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 11,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 12,
+    },
+    {
+      info: ".design",
+      foo: "/src/images/img4.jpg",
+      id: 13,
+    },
+  ];
   return (
     <div className="portfolio_wrapper">
-      <ProjectImgs classinfo="item design" img={img} />
-      <ProjectImgs classinfo="item frontend" img={img} />
-      <ProjectImgs classinfo="item backend" img={img} />
-      <ProjectImgs classinfo="item backend" img={img} />
+      {images.map((item) => {
+        if (currentTech === "*") {
+          return <ProjectImgs key={item.id} classinfo="item" img={item.foo} />;
+        }  if (item.info === currentTech) {
+          return <ProjectImgs key={item.id} classinfo="item" img={item.foo} />;
+        }
+      })}
     </div>
   );
-}
+};
 
 export default GalaryPhotos;

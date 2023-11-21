@@ -37,7 +37,7 @@ const TechHeadings = () => {
           />
         </ul>
       </div>
-      <GalaryPhotos/>
+      <GalaryPhotos currentTech={activeTech } />
     </>
   );
 };

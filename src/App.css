@@ -385,7 +385,6 @@ section.counter_wrapper > div h5 {
 section.work .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
 section.work .wrapper .portfolio .tabs ul {
   list-style-type: none;
@@ -407,10 +406,15 @@ section.work .wrapper .portfolio .tabs ul li a.active {
 section.work .wrapper .portfolio .portfolio_wrapper {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  transition: item ease-out;
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item {
+  margin: 5px;
+  /* transition: all ease-in-out; */
 }
 
-section.work .wrapper .portfolio .portfolio_wrapper a img{
+section.work .wrapper .portfolio .portfolio_wrapper a img {
   display: block;
   width: 100%;
   height: 100%;
