@@ -385,6 +385,8 @@ section.counter_wrapper > div h5 {
 section.work .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 40px;
 }
 section.work .wrapper .portfolio .tabs ul {
   list-style-type: none;
@@ -410,7 +412,7 @@ section.work .wrapper .portfolio .portfolio_wrapper {
   transition: item ease-out;
 }
 section.work .wrapper .portfolio .portfolio_wrapper .item {
-  margin: 5px;
+  margin: 0 0px 6px 6px;
   /* transition: all ease-in-out; */
 }
 
@@ -419,4 +421,42 @@ section.work .wrapper .portfolio .portfolio_wrapper a img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+section.work .wrapper .slider_wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 100%;
+}
+section.work .wrapper .slider_wrapper .icon_wrap {
+  color: var(--info);
+  font-size: 26px;
+  text-align: center;
+}
+section.work .wrapper .slider_wrapper .slider .slide p {
+  color: var(--ternary);
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+section.work .wrapper .slider_wrapper .slider .slide img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+section.work .wrapper .slider_wrapper .slider .slide h2 {
+  color: var(--info);
+  font-size: 16px;
+  margin-top: 1rem;
+}
+section.work .wrapper .slider_wrapper .slider .slide h6 {
+  color: var(--ternary);
+  margin-top: 1rem;
+}
+section.work .wrapper .slider_wrapper .slider .slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

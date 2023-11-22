@@ -43,38 +43,39 @@ const GalaryPhotos = ({ currentTech }) => {
       foo: "/src/images/img4.jpg",
       id: 8,
     },
-    {
-      info: ".design",
-      foo: "/src/images/img4.jpg",
-      id: 9,
-    },
-    {
-      info: ".design",
-      foo: "/src/images/img4.jpg",
-      id: 10,
-    },
-    {
-      info: ".design",
-      foo: "/src/images/img4.jpg",
-      id: 11,
-    },
-    {
-      info: ".design",
-      foo: "/src/images/img4.jpg",
-      id: 12,
-    },
-    {
-      info: ".design",
-      foo: "/src/images/img4.jpg",
-      id: 13,
-    },
+    // {
+    //   info: ".design",
+    //   foo: "/src/images/img4.jpg",
+    //   id: 9,
+    // },
+    // {
+    //   info: ".design",
+    //   foo: "/src/images/img4.jpg",
+    //   id: 10,
+    // },
+    // {
+    //   info: ".design",
+    //   foo: "/src/images/img4.jpg",
+    //   id: 11,
+    // },
+    // {
+    //   info: ".design",
+    //   foo: "/src/images/img4.jpg",
+    //   id: 12,
+    // },
+    // {
+    //   info: ".design",
+    //   foo: "/src/images/img4.jpg",
+    //   id: 13,
+    // },
   ];
   return (
     <div className="portfolio_wrapper">
       {images.map((item) => {
         if (currentTech === "*") {
           return <ProjectImgs key={item.id} classinfo="item" img={item.foo} />;
-        }  if (item.info === currentTech) {
+        }
+        if (item.info === currentTech) {
           return <ProjectImgs key={item.id} classinfo="item" img={item.foo} />;
         }
       })}
