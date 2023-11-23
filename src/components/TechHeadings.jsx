@@ -21,7 +21,7 @@ const TechHeadings = () => {
             isActive={activeTech === ".design"}
             onClick={() => handleTechClick(".design")}
             dataProp=".design"
-            tech="UI/UX Design"
+            tech="AI/ML"
           />
           <ProjectTech
             isActive={activeTech === ".frontend"}
