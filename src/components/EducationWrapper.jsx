@@ -6,19 +6,14 @@ const EducationWrapper = () => {
   return (
     <div className="timeline_wrapper">
       <EducationDetail
-        year="2000-2004"
-        standard="HighSchool"
+        year="2020-2024"
+        standard="Bacholer's Degree"
         field="Bacholer in Computer & Science"
       />
       <EducationDetail
-        year="2000-2004"
+        year="2019-2020"
         standard="HighSchool"
-        field="Bacholer in Computer & Science"
-      />
-      <EducationDetail
-        year="2000-2004"
-        standard="HighSchool"
-        field="Bacholer in Computer & Science"
+        field="Science & Mathematics"
       />
     </div>
   );

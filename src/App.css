@@ -13,7 +13,7 @@
   --footer: #212a4a;
   --black: #060b1b;
   --twitter: #4ac7ec;
-  --dribble: #ff5da0;
+  --dribble: #0A66C2;
   --success: #1ecab8;
   --danger: #f1646c;
   --dark-blue: #28365f;
@@ -176,7 +176,7 @@ section.profile .right ul.socials li a {
   color: var(--pure);
 }
 section.profile .right ul.socials li:nth-child(1) a {
-  background: var(--secondary);
+  background: grey;
 }
 section.profile .right ul.socials li:nth-child(2) a {
   background: var(--twitter);
@@ -227,6 +227,7 @@ section.about .content p {
   line-height: 1.6;
   letter-spacing: 0.1px;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 section.about .content .left button {
   background: rgba(77, 121, 246, 0.1);

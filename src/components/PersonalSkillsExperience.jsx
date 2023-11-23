@@ -16,24 +16,24 @@ const PersonalSkillsExperience = () => {
             />
             <EducationWrapper />
           </div>
-          <div className="inner_right">
+          {/* <div className="inner_right">
             <EducationHeading
               logoClass="uil uil-suitcase-alt"
               info="Experience"
             />
             <EducationWrapper />
-          </div>
+          </div> */}
         </div>
         <div className="right">
           <div className="skills_wrapper">
-            <SkillBox skill="React" dataAttr="80" level="80" />
-            <SkillBox skill="HTML & CSS3" dataAttr="78" level="78" />
+            <SkillBox skill="JavaScript / TypeScript" dataAttr="80" level="80" />
+            <SkillBox skill="C++" dataAttr="78" level="78" />
             <SkillBox
               skill="Data Structure & Algorithms"
-              dataAttr="60"
-              level="60"
+              dataAttr="70"
+              level="70"
             />
-            <SkillBox skill="JavaScript" dataAttr="70" level="70" />
+            <SkillBox skill="React / Next JS" dataAttr="90" level="90" />
           </div>
         </div>
       </div>

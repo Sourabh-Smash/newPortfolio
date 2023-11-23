@@ -7,32 +7,30 @@ const SliderComp = () => {
   const [currentIdx, setCurrentIdx] = useState(0);
   const sliderContent = [
     {
-      words:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut ullam  vitae? Reiciendis nisi nulla, molestias numquam perspiciatis officia ",
-      url: "/src/images/img1.jpg",
-      nameIs: "-Sourabh Manawat",
-      company: "CEO Facebook",
+      words: `"Real programmers can write assembly code in any language."`,
+      url: "/src/images/1.jpg",
+      nameIs: "- Larry Wall",
+      company: "Perl Language Creator",
     },
     {
       words:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut ullam  vitae? Reiciendis nisi nulla, molestias numquam perspiciatis officia ",
-      url: "/src/images/img2.jpg",
-      nameIs: "-Sourabh holo",
-      company: "CEO MS",
+        " Good programmers use their brains, but good guidelines save us having to think out every case.",
+      url: "/src/images/2.jpeg",
+      nameIs: "-Francis Glassborow",
+      company: "Chairman of ACCU",
+    },
+    {
+      words: " Software is like sex: it’s better when it’s free",
+      url: "/src/images/3.jpg",
+      nameIs: "- Linus Torvalds",
+      company: "Creator of Linux OS",
     },
     {
       words:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut ullam  vitae? Reiciendis nisi nulla, molestias numquam perspiciatis officia ",
-      url: "/src/images/img3.jpg",
-      nameIs: "-Ajay Manawat",
-      company: "CEO Apple",
-    },
-    {
-      words:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut ullam  vitae? Reiciendis nisi nulla, molestias numquam perspiciatis officia ",
-      url: "/src/images/img4.jpg",
-      nameIs: "-Gautham Suthar",
-      company: "CEO Vevar",
+        " I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12. ",
+      url: "/src/images/4.jpg",
+      nameIs: "-Elon Musk",
+      company: "CEO Tesla & SpaceX",
     },
   ];
   const options = {

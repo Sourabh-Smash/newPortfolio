@@ -4,7 +4,7 @@ const FormFields = ({name,type}) => {
   return (
     <div>
       <label htmlFor="">{name} </label>
-      <input type={type} name="" id="" />
+      <input type={type} name="" id="" required />
     </div>
   );
 }

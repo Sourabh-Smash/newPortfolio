@@ -9,10 +9,12 @@ const PersonalDetails = () => {
         <div className="left">
           <h2>Im Sourabh Manawat</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quam
-            exercitationem illo vero, consequuntur ullam recusandae dolores
-            aliquam laudantium magni dolorum nulla impedit at cupiditate quasi!
-            Distinctio dolores est in.
+            an aspiring software developer and dedicated student, is fueled by a
+            profound passion for software development. Eager to explore and
+            master various coding languages, Sourabh seeks to create impactful
+            and innovative solutions. With a commitment to continuous learning,
+            he aspires to contribute meaningfully to the dynamic and
+            ever-evolving field of technology.
           </p>
           <button>Download CV</button>
         </div>

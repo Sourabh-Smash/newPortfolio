@@ -19,9 +19,9 @@ const PersonalInformation = () => {
         </section>
         <PersonalDetails />
         <PersonalSkillsExperience />
-        <CowndownSection />
+        {/* <CowndownSection /> */}
         <ProjectWork />
-        <Partners />
+        {/* <Partners /> */}
         <ContactPage />
       </main>
       <Footer />

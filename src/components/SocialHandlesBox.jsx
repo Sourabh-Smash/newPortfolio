@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SocialHandlesBox = ({classDetail}) => {
+const SocialHandlesBox = ({classDetail,link}) => {
   return (
     <li>
-      <a href="#">
+      <a href={link} target='_blank'>
         <i className={classDetail}></i>
       </a>
     </li>

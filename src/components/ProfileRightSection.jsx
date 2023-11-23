@@ -1,6 +1,6 @@
-import React from 'react'
-import ContactBox from './ContactBox';
-import SocialHandlesBox from './SocialHandlesBox';
+import React from "react";
+import ContactBox from "./ContactBox";
+import SocialHandlesBox from "./SocialHandlesBox";
 
 const ProfileRightSection = () => {
   return (
@@ -19,12 +19,21 @@ const ProfileRightSection = () => {
       </ul>
 
       <ul className="socials">
-        <SocialHandlesBox classDetail="uil uil-github" />
-        <SocialHandlesBox classDetail="uil uil-twitter" />
-        <SocialHandlesBox classDetail="uil uil-linkedin" />
+        <SocialHandlesBox
+          link="https://github.com/Sourabh-Smash"
+          classDetail="uil uil-github"
+        />
+        <SocialHandlesBox
+          link="https://www.linkedin.com/in/sourabh-menaria-0525571a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          classDetail="uil uil-linkedin"
+        />
+        <SocialHandlesBox
+          link="https://www.linkedin.com/in/sourabh-menaria-0525571a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          classDetail="uil uil-twitter"
+        />
       </ul>
     </div>
   );
-}
+};
 
 export default ProfileRightSection;
