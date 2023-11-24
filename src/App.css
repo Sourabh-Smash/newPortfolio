@@ -13,7 +13,7 @@
   --footer: #212a4a;
   --black: #060b1b;
   --twitter: #4ac7ec;
-  --dribble: #0A66C2;
+  --dribble: #0a66c2;
   --success: #1ecab8;
   --danger: #f1646c;
   --dark-blue: #28365f;
@@ -415,15 +415,47 @@ section.work .wrapper .portfolio .portfolio_wrapper {
 }
 section.work .wrapper .portfolio .portfolio_wrapper .item {
   margin: 0 0px 6px 6px;
-  /* transition: all ease-in-out; */
+  position: relative;
 }
 
-section.work .wrapper .portfolio .portfolio_wrapper a img {
+section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+  position: absolute;
+  top: 7px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item:hover .links {
+  opacity: 1;
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+  text-decoration: none;
+  background: var(--info);
+  color: var(--pure);
+  margin: 10px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item .links a:hover {
+  background-color: var(--secondary);
+}
+section.work .wrapper .portfolio .portfolio_wrapper .item a img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* transition: filter 0.5s; */
 }
+/* section.work .wrapper .portfolio .portfolio_wrapper .item a img:hover {
+  filter: brightness(20%);
+} */
 section.work .wrapper .slider_wrapper {
   display: flex;
   flex-direction: column;
@@ -560,6 +592,12 @@ footer {
     max-width: 90%;
   }
 }
+@media (max-width: 1150px) {
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 7px;
+    left: 15px;
+  }
+}
 @media (max-width: 1000px) {
   section.profile {
     flex-direction: column;
@@ -584,9 +622,10 @@ footer {
   section.partners {
     padding-bottom: 0px;
   }
-  /* section {
-    padding: 0 3rem 3rem 3rem;
-  } */
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 40px;
+    left: 80px;
+  }
 }
 @media (max-width: 970px) {
   section.skills .content {
@@ -604,9 +643,6 @@ footer {
   section.about .content {
     grid-gap: 8rem;
   }
-  /* section {
-    padding: 0 3rem 3rem 3rem;
-  } */
 }
 @media (max-width: 840px) {
   section.about .content {
@@ -632,6 +668,20 @@ footer {
   section.counter_wrapper > div {
     margin-bottom: 1rem;
   }
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 20px;
+    left: 50px;
+  }
+}
+@media (max-width: 645px) {
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 6px;
+    left: 30px;
+  }
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+    font-size: 12px;
+    margin: 8px;
+  }
 }
 @media (max-width: 570px) {
   section.profile {
@@ -643,10 +693,53 @@ footer {
   section.profile .left {
     margin-bottom: 1.5rem;
   }
-  section.contact .wrapper .right .form_group{
+  section.contact .wrapper .right .form_group {
     grid-template-columns: 1fr;
   }
-  section.about{
+  section.about {
     padding-bottom: 1rem;
+  }
+}
+@media (max-width: 535px) {
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 10px;
+    left: 25px;
+  }
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+    font-size: 12px;
+    margin: 0 0 10px 0px;
+  }
+}
+@media (max-width: 465px) {
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 15px;
+    left: 15px;
+  }
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+    font-size: 12px;
+    margin: 0 0 7px 0px;
+    padding: 3px;
+  }
+}
+@media (max-width: 415px) {
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 8px;
+    left: 10px;
+  }
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+    font-size: 12px;
+    margin: 0 0 7px 0px;
+    padding: 3px;
+  }
+}
+@media (max-width: 400px) {
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links {
+    top: 8px;
+    left: 8px;
+  }
+  section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+    font-size: 10px;
+    margin: 0 0 5px 0px;
+    padding: 3px;
   }
 }

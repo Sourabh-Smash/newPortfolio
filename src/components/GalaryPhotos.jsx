@@ -69,14 +69,18 @@ const GalaryPhotos = ({ currentTech }) => {
     //   id: 13,
     // },
   ];
+
+  const prevent = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="portfolio_wrapper">
       {images.map((item) => {
         if (currentTech === "*") {
-          return <ProjectImgs key={item.id} classinfo="item" img={item.foo} />;
+          return <ProjectImgs key={item.id} prevent={prevent} img={item.foo} />;
         }
         if (item.info === currentTech) {
-          return <ProjectImgs key={item.id} classinfo="item" img={item.foo} />;
+          return <ProjectImgs key={item.id} prevent={prevent} img={item.foo} />;
         }
       })}
     </div>
