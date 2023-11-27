@@ -1,15 +1,11 @@
 import React from "react";
 
-const ProjectImgs = ({ prevent, img }) => {
+const ProjectImgs = ({ prevent, img, gitLink, netlify }) => {
   return (
     <div className="item">
       <div className="links">
-        <a href="#" onClick={(e) => prevent(e)}>
-          GitHub Link
-        </a>
-        <a href="#" onClick={(e) => prevent(e)}>
-          Live Project
-        </a>
+        <a href={gitLink} target="_blank">GitHub Link</a>
+        <a href={netlify} target="_blank">Live Project</a>
       </div>
       <a href="#" onClick={(e) => prevent(e)}>
         <img src={img} alt="" />

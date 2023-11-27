@@ -18,12 +18,6 @@ const TechHeadings = () => {
             tech="All"
           />
           <ProjectTech
-            isActive={activeTech === ".design"}
-            onClick={() => handleTechClick(".design")}
-            dataProp=".design"
-            tech="AI/ML"
-          />
-          <ProjectTech
             isActive={activeTech === ".frontend"}
             onClick={() => handleTechClick(".frontend")}
             dataProp=".frontend"
@@ -34,6 +28,12 @@ const TechHeadings = () => {
             onClick={() => handleTechClick(".backend")}
             dataProp=".backend"
             tech="BackEnd"
+          />
+          <ProjectTech
+            isActive={activeTech === ".design"}
+            onClick={() => handleTechClick(".design")}
+            dataProp=".design"
+            tech="AI/ML"
           />
         </ul>
       </div>
