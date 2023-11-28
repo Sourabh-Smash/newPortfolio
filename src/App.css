@@ -713,23 +713,26 @@ footer {
 @media (max-width: 465px) {
   section.work .wrapper .portfolio .portfolio_wrapper{
     margin-top: 2rem;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
   section.work .wrapper .portfolio .portfolio_wrapper .item .links {
     top: 15px;
     left: 15px;
+    opacity: 1;
   }
   section.work .wrapper .portfolio .portfolio_wrapper .item .links a {
+    background: transparent;
     font-size: 12px;
     margin: 0 0 7px 0px;
     padding: 3px;
   }
   section.work .wrapper .portfolio .portfolio_wrapper .item{
-    /* height: 100px; */
-    width: 100px;
+    /* height: 50px; */
+    /* width: 100px; */
     /* height: 100%; */
     /* margin: 0 0px 0px 0px; */
   }
+ 
    section.work .wrapper .portfolio .portfolio_wrapper .item a img{
      object-fit: contain;
      width: 100%;
