@@ -722,7 +722,8 @@ footer {
   }
   section.work .wrapper .portfolio .portfolio_wrapper .item{
     /* height: 100px; */
-    width: 80px;
+    width: 100px;
+    height: 100%;
   }
    section.work .wrapper .portfolio .portfolio_wrapper .item a img{
      object-fit: contain;
