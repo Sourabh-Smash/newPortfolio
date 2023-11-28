@@ -711,6 +711,9 @@ footer {
   }
 }
 @media (max-width: 465px) {
+  section.work .wrapper .portfolio .portfolio_wrapper{
+    margin-top: 2rem;
+  }
   section.work .wrapper .portfolio .portfolio_wrapper .item .links {
     top: 15px;
     left: 15px;
@@ -724,6 +727,7 @@ footer {
     /* height: 100px; */
     width: 100px;
     height: 100%;
+    margin: 0 0px 0px 0px;
   }
    section.work .wrapper .portfolio .portfolio_wrapper .item a img{
      object-fit: contain;
