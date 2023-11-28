@@ -721,9 +721,12 @@ footer {
     padding: 3px;
   }
   section.work .wrapper .portfolio .portfolio_wrapper .item{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
   }
+   section.work .wrapper .portfolio .portfolio_wrapper .item a img{
+     object-fit: contain;
+   }
 }
 @media (max-width: 415px) {
   section.work .wrapper .portfolio .portfolio_wrapper .item .links {
