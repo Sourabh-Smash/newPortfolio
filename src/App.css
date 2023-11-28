@@ -720,6 +720,10 @@ footer {
     margin: 0 0 7px 0px;
     padding: 3px;
   }
+  section.work .wrapper .portfolio .portfolio_wrapper .item{
+    height: 100px;
+    width: 100px;
+  }
 }
 @media (max-width: 415px) {
   section.work .wrapper .portfolio .portfolio_wrapper .item .links {
