@@ -1,5 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import SliderContent from "./SliderContent";
+import img1 from "../images/1.jpg";
+import img2 from "../images/2.jpeg";
+import img3 from "../images/3.jpg";
+import img4 from "../images/4.jpg";
 
 const SliderComp = () => {
   const targetRef = useRef(null);
@@ -8,27 +12,27 @@ const SliderComp = () => {
   const sliderContent = [
     {
       words: `"Real programmers can write assembly code in any language."`,
-      url: "/src/images/1.jpg",
+      url: [img1],
       nameIs: "- Larry Wall",
       company: "Perl Language Creator",
     },
     {
       words:
         " Good programmers use their brains, but good guidelines save us having to think out every case.",
-      url: "/src/images/2.jpeg",
+      url: [img2],
       nameIs: "-Francis Glassborow",
       company: "Chairman of ACCU",
     },
     {
       words: " Software is like sex: it’s better when it’s free",
-      url: "/src/images/3.jpg",
+      url: [img3],
       nameIs: "- Linus Torvalds",
       company: "Creator of Linux OS",
     },
     {
       words:
         " I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12. ",
-      url: "/src/images/4.jpg",
+      url: [img4],
       nameIs: "-Elon Musk",
       company: "CEO Tesla & SpaceX",
     },
