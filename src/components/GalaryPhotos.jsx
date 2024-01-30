@@ -4,6 +4,8 @@ import projImg1 from "../images/realEstate.png"
 import projImg2 from "../images/zomato.png";
 import projImg3 from "../images/tree.jpg";
 import projImg4 from "../images/img2.jpg";
+import projImg5 from "../images/YT.png";
+
 
 const GalaryPhotos = ({ currentTech }) => {
   const images = [
@@ -36,10 +38,10 @@ const GalaryPhotos = ({ currentTech }) => {
       netlify: "https://gregarious-capybara-d3e182.netlify.app",
     },
     {
-      info: ".design",
-      foo: [projImg4],
+      info: ".frontend",
+      foo: [projImg5],
       id: 5,
-      gitHub: "1",
+      gitHub: "https://github.com/Sourabh-Smash/YT-clone",
       netlify: "1",
     },
     {
@@ -56,13 +58,13 @@ const GalaryPhotos = ({ currentTech }) => {
       gitHub: "1",
       netlify: "1",
     },
-    {
-      info: ".design",
-      foo: [projImg4],
-      id: 8,
-      gitHub: "1",
-      netlify: "1",
-    },
+    // {
+    //   info: ".design",
+    //   foo: [projImg4],
+    //   id: 8,
+    //   gitHub: "1",
+    //   netlify: "1",
+    // },
     // {
     //   info: ".design",
     //   foo: "/src/images/img4.jpg",
