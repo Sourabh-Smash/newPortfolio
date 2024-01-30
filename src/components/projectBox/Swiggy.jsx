@@ -1,12 +1,12 @@
 import React from "react";
-import oneImg from "/Users/sourabh/Desktop/Portfolio-master/src/images/1.jpg";
+import oneImg from "/Users/sourabh/Desktop/Portfolio-master/src/images/foodImg.png";
 import SocialHandlesBox from "../SocialHandlesBox";
 import { TbWorldWww } from "react-icons/tb";
 const ProjectContainer = () => {
   return (
     <div className="mainBox">
       <img src={oneImg} alt="projectImg" className="prjImg" />
-      <h1 className="prjName">Swiggy Clone </h1>
+      <h1 className="prjName">Food Ordering App</h1>
       <p className="prjDes">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
         voluptatum, nemo ipsam eum porro error sapiente deleniti rerum
@@ -19,11 +19,15 @@ const ProjectContainer = () => {
       </ul>
       <ul className="socials">
         <SocialHandlesBox
-          link="https://github.com/Sourabh-Smash"
+          link="https://github.com/Sourabh-Smash/namaste-react-demo"
           classDetail="uil uil-github"
         />
         <li>
-          <a href={""} className="btnWeb" target="_blank">
+          <a
+            href={"https://earnest-sable-288eb2.netlify.app"}
+            className="btnWeb"
+            target="_blank"
+          >
             <TbWorldWww className="webBtn" />
           </a>
         </li>
