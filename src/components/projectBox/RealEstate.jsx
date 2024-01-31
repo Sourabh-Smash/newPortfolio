@@ -1,5 +1,5 @@
 import React from "react";
-import oneImg from "/Users/sourabh/Desktop/Portfolio-master/src/images/realEstate.png";
+import oneImg from "../../images/realEstate.png";
 import SocialHandlesBox from "../SocialHandlesBox";
 import { TbWorldWww } from "react-icons/tb";
 const ProjectContainer = () => {
