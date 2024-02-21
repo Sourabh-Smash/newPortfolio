@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import profile from '../images/tree.jpg';
+import profile from '../images/my.png';
 
 const ProfileLeftSection = () => {
   const skills = ["JavaScript Developer","FrontEnd  Developer","Software  Developer"];
