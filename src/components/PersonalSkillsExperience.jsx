@@ -23,9 +23,9 @@ const PersonalSkillsExperience = () => {
             />
             <div className="timeline_wrapper">
               <div className="item">
-                <p>Feb 2024 - Current</p>
+                <p>Nov 2023 - Oct 2024</p>
                 <p className="center">RightShift Technologies</p>
-                <p>FrontEnd Developer Intern</p>
+                <p>Software Developer Engineer - 1</p>
               </div>
             </div>
             {/* <EducationWrapper /> */}

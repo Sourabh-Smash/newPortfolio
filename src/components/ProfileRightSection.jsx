@@ -24,11 +24,11 @@ const ProfileRightSection = () => {
           classDetail="uil uil-github"
         />
         <SocialHandlesBox
-          link="https://www.linkedin.com/in/sourabh-menaria-0525571a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          link="https://www.linkedin.com/in/sourabh-manawat-0525571a9/"
           classDetail="uil uil-linkedin"
         />
         <SocialHandlesBox
-          link="https://www.linkedin.com/in/sourabh-menaria-0525571a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          link="https://x.com/sourabh_manawat"
           classDetail="uil uil-twitter"
         />
       </ul>
